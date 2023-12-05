@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
   return <>
     <Provider store={store}>
       <Header />
-      <main className={`max-sm:px-4 ${inter.className}`}>
+      <main className={`max-sm:px-4 max-sm:mb-12 ${inter.className}`}>
         <Component {...pageProps} />
       </main>
       <Toaster

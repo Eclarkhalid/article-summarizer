@@ -66,7 +66,7 @@ export default function Hero() {
               <div key={`article-${index}`} className=" h-44 rounded-lg border shadow-md">
                 <div className="link_card flex items-center gap-2 p-3">
                   <div className="">
-                    <Link href={item.url} target='_blank' className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate">{item.url}</Link>
+                    <Link href={item.url} target='_blank' className="flex-1 font-satoshi text-blue-700 font-medium text-sm line-clamp-2">{item.url}</Link>
                   </div>
                 </div>
                 <div className="p-3">
