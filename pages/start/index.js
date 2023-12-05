@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { copy, linkIcon, loader, tick } from '../assets';
+import { copy, linkIcon, loader, tick } from '../../public/assets';
 import { useLazyGetSummaryQuery } from "../services/article";
 import { toast, Toaster } from 'react-hot-toast';
 import Image from "next/image";
@@ -136,7 +136,7 @@ const Body = () => {
               </div>
             ) : (
 
-              <div className=" h-52 rounded-lg bg-gray-200 w-full flex items-center justify-center">
+              <div className=" h-52 rounded-lg bg-gray-200 w-full flex items-center justify-center p-3">
                 <p className="text-center font-medium">Select a link to see its summary or paste a link to get its summary.</p>
               </div>
 
