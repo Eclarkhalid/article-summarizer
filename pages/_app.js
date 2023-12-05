@@ -2,7 +2,7 @@ import '@/styles/globals.css'
 
 import { Inter } from 'next/font/google'
 import { Provider } from 'react-redux'
-import { store } from './services/store'
+import { store } from '../services/store'
 import { Toaster } from 'react-hot-toast'
 import Header from './components/Header'
 
